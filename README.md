@@ -1,19 +1,19 @@
 # Uno_Multiplayer_Pro
 UNO Multiplayer Pro is a modern and interactive digital recreation of the classic UNO card game, designed to provide an engaging and competitive gameplay experience. The game allows players to enjoy UNO either multiplayer on the same PC or over a local network, bringing the traditional card game into a dynamic digital format.
-Perfect 👍
+Perfect 
 Below is a **clean, professional README** you can **directly copy-paste into `README.md` on GitHub**.
 This is **first-project friendly**, recruiter-readable, and not overcomplicated.
 
 ---
 
-# 🎮 UNO Multiplayer Pro
+#  UNO Multiplayer Pro
 
 A browser-based **UNO card game** launched via a **single Python file**, featuring an intelligent AI bot, animations, and sound effects.
 This is my **first game development project**, built to understand game logic, AI decision-making, and frontend–backend integration.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 **UNO Multiplayer Pro** runs entirely through a Python launcher that:
 
@@ -25,23 +25,23 @@ The game supports **single-player mode with AI bot** and **local multiplayer**.
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🎯 **Single-file Python launcher**
-* 🤖 **AI Bot with Difficulty Levels**
+*  **Single-file Python launcher**
+*  **AI Bot with Difficulty Levels**
 
   * Easy – random decisions
   * Medium – avoids wild misuse
   * Hard – strategic & opponent-aware
-* 🎨 Clean and responsive UI
-* 🃏 Hidden opponent cards
-* 🎬 Card animations
-* 🔊 Sound effects for actions & winning
-* 🧠 Modular code for future multiplayer expansion
+*  Clean and responsive UI
+*  Hidden opponent cards
+*  Card animations
+*  Sound effects for actions & winning
+*  Modular code for future multiplayer expansion
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Python** – Launcher & local server
 * **HTML5** – Game structure
@@ -51,7 +51,7 @@ The game supports **single-player mode with AI bot** and **local multiplayer**.
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ The game will:
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
 * Designing and implementing game rules
 * Managing game state and player turns
@@ -82,24 +82,24 @@ The game will:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-* 🌐 LAN / Online multiplayer
-* 🎨 Multiple UI themes (Dark / Neon)
-* 📱 Mobile responsiveness improvements
-* 🧠 Advanced AI strategies
+*  LAN / Online multiplayer
+*  Multiple UI themes (Dark / Neon)
+*  Mobile responsiveness improvements
+*  Advanced AI strategies
 
 ---
 
-## 👤 Author
+##  Author
 
 **Maitreya Rane**
-First Game Development Project 🎮
+First Game Development Project 
 Learning • Building • Improving
 
 ---
 
-## 📄 License
+##  License
 
 This project is for learning and educational purposes.
 
