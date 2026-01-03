@@ -30,9 +30,9 @@ The game supports **single-player mode with AI bot** and **local multiplayer**.
 *  **Single-file Python launcher**
 *  **AI Bot with Difficulty Levels**
 
-  * Easy – random decisions
-  * Medium – avoids wild misuse
-  * Hard – strategic & opponent-aware
+    * Easy – random decisions
+    * Medium – avoids wild misuse
+    * Hard – strategic & opponent-aware
 *  Clean and responsive UI
 *  Hidden opponent cards
 *  Card animations
