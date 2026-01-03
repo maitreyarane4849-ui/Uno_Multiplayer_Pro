@@ -28,7 +28,7 @@ INDEX_HTML = """<!DOCTYPE html>
       </label>
       <label><input type="checkbox" id="botOption"> Play with bot</label>
 
-      <!-- 👇 New: Difficulty selector -->
+      <!--  New: Difficulty selector -->
       <div id="difficulty-container" style="display:none;">
         <label>Bot Difficulty: 
           <select id="botDifficulty">
@@ -55,7 +55,7 @@ INDEX_HTML = """<!DOCTYPE html>
 
   <script src="uno.js"></script>
 
-  <!-- 👇 Script to show/hide difficulty -->
+  <!-- Script to show/hide difficulty -->
   <script>
     document.getElementById("botOption").addEventListener("change", function() {
       document.getElementById("difficulty-container").style.display =
@@ -199,7 +199,7 @@ button:hover {
   background: #2c3a6a;
 }
 
-/* 👇 Style for difficulty selector */
+/* Style for difficulty selector */
 #difficulty-container {
   margin-top: 12px;
 }
@@ -258,7 +258,7 @@ let playerTurn = 0;
 let playDirection = 1;
 let playing = false;
 let botActive = false;
-let botDifficulty = "easy"; // 👈 New variable
+let botDifficulty = "easy"; //  New variable
 
 function buildDeck() {
   let d = [];
@@ -314,7 +314,7 @@ function setupGame(nPlayers, botOption) {
     players.push(drawCards(7)); // Player
     players.push(drawCards(7)); // Bot
     botActive = true;
-    botDifficulty = document.getElementById("botDifficulty").value; // 👈 Get difficulty
+    botDifficulty = document.getElementById("botDifficulty").value; // Get difficulty
     console.log("Bot difficulty set to:", botDifficulty);
   } else {
     for (let i = 0; i < nPlayers; i++) {
@@ -453,7 +453,7 @@ function updateStatus(msg) {
   document.getElementById("status").textContent = msg;
 }
 
-// 👇 Enhanced Bot Logic (Easy / Medium / Hard)
+//  Enhanced Bot Logic (Easy / Medium / Hard)
 function botPlay() {
   if (!playing) return;
   let botHand = players[1];
@@ -581,3 +581,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
